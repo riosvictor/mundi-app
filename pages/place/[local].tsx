@@ -14,8 +14,6 @@ const Place = () => {
 
   const { data, error } = useSWR<Data>(`/api/place/${local}`, fetcher)
 
-  console.log(data, error)
-
   if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
 
