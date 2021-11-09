@@ -1,9 +1,10 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from '../styles/Home.module.css'
-import Header from './components/Header'
-import IconItem from './components/IconItem'
+import Header from '../components/Header'
+import IconItem from '../components/IconItem'
 
 import "swiper/css";
 import "swiper/css/pagination"
@@ -58,52 +59,82 @@ const Home: NextPage = () => {
         </div>
 
         <Swiper pagination={{clickable: true}} navigation={true} loop={true} slidesPerView={1} spaceBetween={30} className={styles.swiper}>
-          <SwiperSlide className={styles.swiperSlide}> 
-            <Image
-              src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1070&q=80" 
-              alt="Europe"
-              layout="fill"
-            /> 
+          <SwiperSlide className={styles.swiperSlide}>
+            <Link href="/place/europe">
+              <a>
+                <Image
+                  src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1070&q=80" 
+                  alt="Europe"
+                  layout="fill"
+                /> 
+              </a>
+            </Link>
+
             <p>Europa</p>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <Image
-              src="https://images.unsplash.com/photo-1534179639155-4910efc143c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80" 
-              alt="South America"
-              layout="fill"
-            /> 
+            <Link href="/place/south-america">
+              <a>
+                <Image
+                  src="https://images.unsplash.com/photo-1534179639155-4910efc143c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80" 
+                  alt="South America"
+                  layout="fill"
+                /> 
+              </a>
+            </Link>
+
             <p>América do Sul</p>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <Image
-              src="https://images.unsplash.com/photo-1576771304215-6d4d30f7bb63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
-              alt="North America"
-              layout="fill"
-            /> 
+            <Link href="/place/north-america">
+              <a>
+                <Image
+                  src="https://images.unsplash.com/photo-1576771304215-6d4d30f7bb63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                  alt="North America"
+                  layout="fill"
+                /> 
+              </a>
+            </Link>
+            
             <p>América do Norte</p>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <Image
-              src="https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
-              alt="Asian"
-              layout="fill"
-            /> 
+            <Link href="/place/asian">
+              <a>
+                <Image
+                  src="https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                  alt="Asian"
+                  layout="fill"
+                /> 
+              </a>
+            </Link>
+            
             <p>Ásia</p>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <Image
-              src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" 
-              alt="Africa"
-              layout="fill"
-            /> 
+            <Link href="/place/africa">
+              <a>
+                <Image
+                  src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" 
+                  alt="Africa"
+                  layout="fill"
+                /> 
+              </a>
+            </Link>
+            
             <p>África</p>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
-            <Image
-              src="https://images.unsplash.com/photo-1588001400947-6385aef4ab0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
-              alt="Oceania"
-              layout="fill"
-            /> 
+            <Link href="/place/oceania">
+              <a>
+                <Image
+                  src="https://images.unsplash.com/photo-1588001400947-6385aef4ab0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
+                  alt="Oceania"
+                  layout="fill"
+                /> 
+              </a>
+            </Link>
+            
             <p>Oceania</p>
           </SwiperSlide>
         </Swiper>
