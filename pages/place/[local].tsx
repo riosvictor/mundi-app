@@ -62,6 +62,7 @@ const Place = () => {
             <Image src="/Info.svg" alt="Icon" width={16} height={16} />
           </span>
         </div>
+        
       </main>
     </>
   )

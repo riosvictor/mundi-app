@@ -58,7 +58,7 @@
 
   justify-content: space-evenly;
 
-  margin-top: 80px;
+  margin: 80px 140px;
 }
 
 .divider {
@@ -89,7 +89,7 @@
 .swiper {
   height: 450px;
 
-  margin: 24px 0px !important;
+  margin: 52px 100px 40px !important;
 }
 
 .swiperSlide {
@@ -185,7 +185,7 @@
   .iconsContainer {
     flex-wrap: wrap;
 
-    margin-top: 36px;
+    margin: 36px 50px;
   }
 
   .divider {
@@ -202,5 +202,12 @@
 
     font-size: 20px;
     line-height: 30px;
+  }
+
+  /*swipper*/
+  .swiper {
+    height: 250px;
+
+    margin: 20px 0px 24px !important;
   }
 }

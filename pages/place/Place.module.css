@@ -21,7 +21,7 @@
 
 .mainContainer > span {
   width: 600px;
-  height: 211px;
+  margin-right: 70px;
 
   font-family: Poppins;
   font-style: normal;
@@ -80,4 +80,56 @@
   line-height: 72px;
 
   color: #F5F8FA;
+}
+
+@media (max-width: 500px) {
+  .banner {
+    height: 150px;
+  }
+
+  .mainContainer {
+    flex-direction: column;
+
+    margin: 24px 16px 16px;
+  }
+
+  .mainContainer > span {
+    width: 100%;
+    margin-right: 0;
+
+    font-size: 14px;
+    line-height: 21px;
+
+    margin-bottom: 40px;
+  }
+
+  .mainContainer > div {
+    height: 59px;
+    width: 100%;
+  }
+
+  .mainContainer > div > span {
+    height: 59px;
+    font-weight: normal;
+  
+    text-align: left;
+    line-height: 27px;
+    font-size: 18px;
+  }
+  
+  .mainContainer > div > span > strong {
+    font-weight: 600;
+
+    line-height: 36px;
+    font-size: 24px;
+  }
+
+  .title {
+    margin-left: calc(100% / 3);
+    left: auto;
+    top: 106px;
+
+    font-size: 28px;
+    line-height: 42px;
+  }
 }
