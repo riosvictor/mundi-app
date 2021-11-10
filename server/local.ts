@@ -29,7 +29,38 @@ export const locals: Data[] = [
     languages: 24,
     citiesMoreVisited: 27,
     urlPlaceBanner: "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1070&q=80",
-    mainCities: []
+    mainCities: [
+      {
+        city: "Londres",
+        country: "UK",
+        urlCity: "https://images.unsplash.com/photo-1581430872221-d1cfed785922?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/the-flag-of-england-picture-id869538200?b=1&k=20&m=869538200&s=170667a&w=0&h=NOBU3D4YMtOocW4eEYRi9LN04uEV28s_bclj6ANolZ8="
+      },
+      {
+        city: "Paris",
+        country: "França",
+        urlCity: "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/france-flag-with-fabric-texture-picture-id1265923802?b=1&k=20&m=1265923802&s=170667a&w=0&h=VSpBwLmh5gT9IUf7ERRx0mckbiscsUtRn955zwegf34="
+      },
+      {
+        city: "Roma",
+        country: "Itália",
+        urlCity: "https://images.unsplash.com/photo-1597177724434-245eb4d730e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=875&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/closeup-of-ruffled-italy-flag-picture-id1031799170?b=1&k=20&m=1031799170&s=170667a&w=0&h=KVny8Bk3rqcei8nlVTrDZKR1DMkiz2vmiYpf1LOda2Y="
+      },
+      {
+        city: "Praga",
+        country: "Republica Checa",
+        urlCity: "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1070&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/czech-republic-waving-national-flag-on-silk-texture-picture-id466824034?b=1&k=20&m=466824034&s=170667a&w=0&h=CAmxN4krzPVTxRXvAsXyVa-83W8vnwyy90ZmXHBqxxA="
+      },
+      {
+        city: "Amsterdam",
+        country: "Holanda",
+        urlCity: "https://images.unsplash.com/photo-1459679749680-18eb1eb37418?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1070&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/netherlands-flag-picture-id508516471?b=1&k=20&m=508516471&s=170667a&w=0&h=CphK80v0RaCC2JxDCHUnaD7RQaJT4wipuCWj0OR2tn4="
+      }
+    ]
   },
   {
     id: "south-america",
@@ -39,7 +70,20 @@ export const locals: Data[] = [
     languages: 10,
     citiesMoreVisited: 15,
     urlPlaceBanner: "https://images.unsplash.com/photo-1606064934508-73f08e379a91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1067&q=80",
-    mainCities: []
+    mainCities: [
+      {
+        city: "Salvador",
+        country: "Brasil",
+        urlCity: "https://images.unsplash.com/photo-1605735846938-af537a09ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/closeup-view-of-the-brazilian-flag-picture-id177373099?b=1&k=20&m=177373099&s=170667a&w=0&h=m7b_wZ-kN-MWdecGuV8bsFm8fOrQ41kUjBNqV7p0pI4="
+      },
+      {
+        city: "Feira de Santana",
+        country: "Brasil",
+        urlCity: "https://images.unsplash.com/photo-1576090135746-ea5526d16cc6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+        urlCountry: "https://media.istockphoto.com/photos/closeup-view-of-the-brazilian-flag-picture-id177373099?b=1&k=20&m=177373099&s=170667a&w=0&h=m7b_wZ-kN-MWdecGuV8bsFm8fOrQ41kUjBNqV7p0pI4="
+      }
+    ]
   },
   {
     id: "north-america",

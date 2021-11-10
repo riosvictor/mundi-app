@@ -82,6 +82,27 @@
   color: #F5F8FA;
 }
 
+.mainCities {
+  margin: 80px 140px 35px;
+}
+
+.mainCities > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+
+  text-align: left;
+
+  color: #47585B;
+}
+
+.mainCities > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 500px) {
   .banner {
     height: 150px;
@@ -131,5 +152,9 @@
 
     font-size: 28px;
     line-height: 42px;
+  }
+
+  .mainCities {
+    margin: 32px 59px 16px 16px;
   }
 }

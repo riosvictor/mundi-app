@@ -29,6 +29,7 @@ const Home: NextPage = () => {
               src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a" 
               alt="banner" 
               layout="fill"
+              priority
             />
           </div>
           
@@ -66,6 +67,7 @@ const Home: NextPage = () => {
                   src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1070&q=80" 
                   alt="Europe"
                   layout="fill"
+                  priority
                 /> 
               </a>
             </Link>
@@ -79,6 +81,7 @@ const Home: NextPage = () => {
                   src="https://images.unsplash.com/photo-1534179639155-4910efc143c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80" 
                   alt="South America"
                   layout="fill"
+                  priority
                 /> 
               </a>
             </Link>
@@ -92,6 +95,7 @@ const Home: NextPage = () => {
                   src="https://images.unsplash.com/photo-1576771304215-6d4d30f7bb63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
                   alt="North America"
                   layout="fill"
+                  priority
                 /> 
               </a>
             </Link>
@@ -105,6 +109,7 @@ const Home: NextPage = () => {
                   src="https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
                   alt="Asian"
                   layout="fill"
+                  priority
                 /> 
               </a>
             </Link>
@@ -118,6 +123,7 @@ const Home: NextPage = () => {
                   src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" 
                   alt="Africa"
                   layout="fill"
+                  priority
                 /> 
               </a>
             </Link>
@@ -131,6 +137,7 @@ const Home: NextPage = () => {
                   src="https://images.unsplash.com/photo-1588001400947-6385aef4ab0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
                   alt="Oceania"
                   layout="fill"
+                  priority
                 /> 
               </a>
             </Link>

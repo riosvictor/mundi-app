@@ -5,6 +5,7 @@ import Header from '../../components/Header'
 import { Data } from '../../server/local'
 import styles from './Place.module.css'
 import { Tooltip } from '@chakra-ui/tooltip'
+import Card from '../../components/Card'
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
@@ -64,6 +65,28 @@ const Place = () => {
         </div>
         
       </main>
+
+      {
+        data.mainCities.length > 0 &&
+        <footer className={styles.mainCities}>
+          <p>Cidades +100</p>
+
+          <div>
+            {
+              data.mainCities.map(city => (
+                <Card 
+                  key={city.city.length}
+                  cityName={city.city}
+                  countryName={city.country}
+                  urlCity={city.urlCity}
+                  urlCountry={city.urlCountry}
+                />
+              ))
+            }
+          </div>
+          
+        </footer>
+      }
     </>
   )
 }
